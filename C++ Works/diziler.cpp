@@ -15,6 +15,7 @@ int main()
     ortalama = toplam / 5;
     std::cout << "ogrencilerin not ortalamasi: "<<ortalama;*/
 
+    //Pointer belirleme
     int a = 100;
     int b = 200;
     int* p1 = &a;
@@ -26,6 +27,7 @@ int main()
     std::cout << "\na nin yeni degeri: " << a;
     
 }
+
 
 
 
