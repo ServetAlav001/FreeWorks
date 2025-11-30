@@ -39,7 +39,7 @@ class musteri :
             file.write(self.soyad + " ")
 
             file.write("hesap bakiye:"+str(self.hesap_bakiye))
-            file.write("hesap no:"+str(self.hesap_no))
+            file.write("hesap no:"+str(self.hesap_no)+"\n")
 
 
 musteriler =[]
@@ -70,10 +70,10 @@ while True:
                             print("programdan cikiliyor...")
                             break
                         elif islem=="1":
-                            miktar = input("cekmek istediginiz miktari giriniz:")
+                            miktar = int(input("cekmek istediginiz miktari giriniz:"))
                             x.para_cek(miktar)
                         elif islem=="2":
-                            miktar = input("yatirmak istediginiz miktari giriniz:")
+                            miktar = int(input("yatirmak istediginiz miktari giriniz:"))
                             x.para_yatir(miktar)
                         elif islem=="3":
                             x.bakiye_sorgula()
