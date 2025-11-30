@@ -15,3 +15,8 @@ while True:
         if tahmin_hakki==0:
             print("tahmin hakkiniz bitmistir.")
             break
+
+    if pcsayi>sayi:
+        print("daha buyuk bir sayi tahmin edin")
+    elif pcsayi<sayi:
+        print("daha kucuk bir sayi tahmin edin")
